@@ -1,10 +1,16 @@
 main()
 {
-add();
-sub();
 mul()
 {
   a*b;
+}
+add()
+  {
+  a+b;
+  }
+sub()
+{
+  a-b;
 }
 div();
 }
