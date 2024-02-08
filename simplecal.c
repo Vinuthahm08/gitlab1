@@ -2,6 +2,9 @@ main()
 {
 add();
 sub();
-mul();
+mul()
+{
+  a*b;
+}
 div();
 }
