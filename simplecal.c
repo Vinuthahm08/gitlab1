@@ -4,7 +4,10 @@ add()
   {
   a+b;
   }
-sub();
+sub()
+{
+  a-b;
+}
 mul();
 div();
 }
