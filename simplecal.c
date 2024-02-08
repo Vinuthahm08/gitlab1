@@ -1,6 +1,9 @@
 main()
 {
-add();
+add()
+  {
+  a+b;
+  }
 sub();
 mul();
 div();
