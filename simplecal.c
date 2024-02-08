@@ -1,5 +1,9 @@
 main()
 {
+mul()
+{
+  a*b;
+}
 add()
   {
   a+b;
@@ -8,6 +12,5 @@ sub()
 {
   a-b;
 }
-mul();
 div();
 }
