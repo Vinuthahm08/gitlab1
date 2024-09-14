@@ -1,0 +1,145 @@
+body {
+  background: linear-gradient(45deg, rgb(40, 2, 40), black); /* Adjusted for clarity */
+  color: white;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#header-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+  position: relative;
+  padding: 20px; /* Add some padding to create space around the content */
+  z-index: 100;
+}
+
+.separator {
+  border: 0;
+  height: 1px;
+  background:white;
+  margin: 20px 0;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+}
+
+#text-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%; /* Full width for the text container */
+  height: 120px; /* Increased height */
+  margin-left: 20px;
+  margin-bottom: 2px solid black;
+}
+
+#headp {
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  color: #ffffff;
+  white-space: nowrap;
+  position: absolute;
+  top: 40px; /* Moved down */
+  animation: moveAcross 10s linear infinite;
+}
+
+@keyframes moveAcross {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+  h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    text-shadow: 0 0 10px rgba(240, 82, 228, 0.8); /* Glowing effect */
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form label {
+    color: white;
+    font-size: 18px;
+  }
+  
+  form input[type="number"] {
+    padding: 10px;
+    border: none;
+    background-color: #1E1136;
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #cb52f0;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  form button:hover {
+    background-color: #9f1bc1;
+  }
+  
+  
+  
+  #results {
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #1E1136;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgba(240, 82, 228, 0.8);
+    }
+    to {
+      text-shadow: 0 0 20px rgba(240, 82, 228, 0.9);
+    }
+  }
+  #submit {
+    margin-top: 20px;
+    padding: 10px 20px;
+   
+    border:4px solid white; /* Border color and width */
+    background-color: #280054; /* Background color */
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 0; /* Make square */
+    text-decoration: none;
+  }
+  
+  #submit:hover {
+    background-color: #9f1bc1;
+    border-color: #000000; /* Border color on hover */
+  }
+  
+  #usn{
+    font-size: larger;
+    font-family: 'Arial', sans-serif;
+
+  }

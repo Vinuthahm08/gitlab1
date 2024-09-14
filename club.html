@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department_news</title>
+    <link rel="stylesheet" href="club.css"> <!-- Path adjusted for root directory -->
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="exam.html">Exam</a>
+            <a href="placement.html">Placement</a>
+            <a href="admission.html">Admission</a>
+            <a href="faculty.html">Faculty</a>
+            <a href="admin.html"></a>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="akira1.jpg"> <!-- Adjust the path if necessary -->
+                <div class="content">
+                    <div class="author">cultural</div>
+                    <div class="title">AKIRA CULTURAL</div>
+                    <div class="topic">CLUB</div>
+                    <div class="des">
+                        The mission of the Akira Cultural Club is to provide a platform for students to 
+                        engage in cultural activities, share their artistic talents, and promote a deeper
+                        understanding of diverse cultural expressions. The club seeks to inspire creativity, 
+                        encourage collaboration, and build a vibrant community of culturally aware individuals.
+                    </div>
+                    <div class="buttons">
+                        <button><a href="http://localhost:4001/akira">Notification</a></button> 
+                        <button onclick="location.href='https://www.instagram.com/Akira_Ekalavya/'">Contact</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bytexync1.jpg"> <!-- Adjust the path if necessary -->
+                <div class="content">
+                    <div class="author">coding</div>
+                    <div class="title">BYTE XYNC</div>
+                    <div class="topic">CLUB</div>
+                    <div class="des">
+                        A student club backed by CSE of DSCE
+                    </div>
+                    <div class="buttons">
+                        <button><a href="http://localhost:4001/bytexync">NOTIFICATION</a></button>
+                        <button onclick="location.href='https://www.instagram.com/ByteXync/'">Contact</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="oscode.jpg"> <!-- Adjust the path if necessary -->
+                <div class="content">
+                    <div class="author">coding</div>
+                    <div class="title">OS CODE</div>
+                    <div class="topic">CLUB</div>
+                    <div class="des">
+                        A community chapter that aims to collaborate and contribute to open source projects
+                    </div>
+                    <div class="buttons">
+                        <button><a href="http://localhost:4001/oscode">NOTIFICATION</a></button>
+                        <button><a href="https://www.oscode.co.in/">SEE MORE</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="point2.jpg"> <!-- Adjust the path if necessary -->
+                <div class="content">
+                    <div class="author">coding</div>
+                    <div class="title">POINT BLANK</div>
+                    <div class="topic">CLUB</div>
+                    <div class="des">
+                        It is a multidesciplinary team of programmers
+                        Our Mission is to hone talent and create world class engineers
+                    </div>
+                    <div class="buttons">
+                        <button><a href="http://localhost:4001/point">NOTIFICATION</a></button>
+                        <button><a href="https://www.pointblank.club/events">SEE MORE</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="akira1.jpg">
+                <div class="content">
+                    <div class="title">
+                        AKIRA
+                    </div>
+                    <div class="description">
+                        Cultural and Sports
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bytexync1.jpg">
+                <div class="content">
+                    <div class="title">
+                        BYTEXYNC
+                    </div>
+                    <div class="description">
+                        Hackathons
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="oscode.jpg">
+                <div class="content">
+                    <div class="title">
+                        OSCODE
+                    </div>
+                    <div class="description">
+                       Coding and Seminar
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="point2.jpg">
+                <div class="content">
+                    <div class="title">
+                        POINT BLANK
+                    </div>
+                    <div class="description">
+                       Coding
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><-</button>
+            <button id="next">-></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="club.js"></script> <!-- Path adjusted for root directory -->
+</body>
+</html>

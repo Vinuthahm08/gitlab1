@@ -1,0 +1,31 @@
+*
+{
+    background-image:url(back.png);
+}
+#ahh
+{
+    color:rgb(3, 3, 0);
+    font-weight:bold;
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    animation: glow 1s ease-in-out infinite alternate;
+
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgba(101, 101, 99, 0.8); 
+  }
+  to {
+    text-shadow: 0 0 20px rgba(251, 2, 255, 0.973); 
+  }
+}
+
+boxx
+{
+    color:black;
+    height:250px;
+    width:380px;
+    background-color:white;
+    
+}

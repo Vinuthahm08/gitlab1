@@ -1,0 +1,17 @@
+
+
+table,th,td{
+  padding: 20px;
+  border: 1px solid black;
+}
+body{
+  text-align: center;
+  align-items: center;
+  display: flex;
+  background-color: rgb(249, 248, 246);
+  justify-content: center;
+}
+img{
+  width:20px;
+  height:20px;
+}
